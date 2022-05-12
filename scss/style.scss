@@ -1,0 +1,67 @@
+@import url("nullstyle.css");
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: rgb(0, 55, 128);
+    width: 360px;
+    height: 560px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.input {
+    &__row {
+        display: flex;
+    }
+    &__Strind {
+        padding-left: 5px;
+        padding-top: 20px;
+        background-color: rgb(211, 211, 211);
+        border: 2px solid black;
+        font-size: 25px;
+        height: 75px;
+        margin-top: 25px;
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 325px;
+        margin-bottom: 15px;
+    }
+}
+
+.buttons {
+    margin-left: 10px;
+
+    &__row {
+        display: flex;
+    }
+
+    &__butt {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(168, 168, 168);
+        color: white;
+        border-radius: 50%;
+        font-weight: 700;
+        font-size: 25px;
+        padding-top: 22px;
+        border: 1px solid black;
+        margin: 5px;
+        text-align: center;
+        height: 73px;
+        width: 73px;
+        box-shadow: 2px 2px 2px black;
+        &:active {
+            box-shadow: 0px 0px 0px black;
+            transform: translate(2px, 2px);
+            background-color: rgb(107, 107, 107);
+        }
+    }
+}
+.countC {
+    margin-top: 10px;
+    border-radius: 8px;
+    width: 320px;
+}
