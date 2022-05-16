@@ -12,78 +12,78 @@ function transfer() {
 }
 
 num1.addEventListener("click", function () {
-    if (inputStr.textContent.length < 25) //проверка на длину строки
+    if (inputStr.textContent.length < 23) //проверка на длину строки
     {
         inputStr.textContent += "1";
     }
 });
 num2.addEventListener("click", function () {
-    if (inputStr.textContent.length < 25) {
+    if (inputStr.textContent.length < 23) {
         inputStr.textContent += "2";
     }
 });
 num3.addEventListener("click", function () {
-    if (inputStr.textContent.length < 25) {
+    if (inputStr.textContent.length < 23) {
         inputStr.textContent += "3";
     }
 });
 num4.addEventListener("click", function () {
-    if (inputStr.textContent.length < 25) {
+    if (inputStr.textContent.length < 23) {
         inputStr.textContent += "4";
     }
 });
 num5.addEventListener("click", function () {
-    if (inputStr.textContent.length < 25) {
+    if (inputStr.textContent.length < 23) {
         inputStr.textContent += "5";
     }
 });
 num6.addEventListener("click", function () {
-    if (inputStr.textContent.length < 25) {
+    if (inputStr.textContent.length < 23) {
         inputStr.textContent += "6";
     }
 });
 num7.addEventListener("click", function () {
-    if (inputStr.textContent.length < 25) {
+    if (inputStr.textContent.length < 23) {
         inputStr.textContent += "7";
     }
 });
 num8.addEventListener("click", function () {
-    if (inputStr.textContent.length < 25) {
+    if (inputStr.textContent.length < 23) {
         inputStr.textContent += "8";
     }
 });
 num9.addEventListener("click", function () {
-    if (inputStr.textContent.length < 25) {
+    if (inputStr.textContent.length < 23) {
         inputStr.textContent += "9";
     }
 });
 num0.addEventListener("click", function () {
-    if (inputStr.textContent.length < 25) {
+    if (inputStr.textContent.length < 23) {
         inputStr.textContent += "0";
     }
 });
 divide.addEventListener("click", function () {
-    if (inputStr.textContent.length < 25) {
+    if (inputStr.textContent.length < 23) {
         inputStr.textContent += "/";
     }
 });
 mult.addEventListener("click", function () {
-    if (inputStr.textContent.length < 25) {
+    if (inputStr.textContent.length < 23) {
         inputStr.textContent += "*";
     }
 });
 minus.addEventListener("click", function () {
-    if (inputStr.textContent.length < 25) {
+    if (inputStr.textContent.length < 23) {
         inputStr.textContent += "-";
     }
 });
 plus.addEventListener("click", function () {
-    if (inputStr.textContent.length < 25) {
+    if (inputStr.textContent.length < 23) {
         inputStr.textContent += "+";
     }
 });
 point.addEventListener("click", function () {
-    if (inputStr.textContent.length < 25) {
+    if (inputStr.textContent.length < 23) {
         inputStr.textContent += ".";
     }
 });
