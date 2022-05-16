@@ -14,9 +14,8 @@
     <div class="wrapper">
         <div class="box">
             <div class="input">
-                <div class="input__row">
-                    <div class="input__Strind" id="inputStr"></div>
-                </div>
+                <div class="input__backString" id="backString"></div>
+                <div class="input__strind" id="inputStr"></div>
             </div>
             <div class="buttons">
                 <div class="buttons__row">
@@ -40,13 +39,18 @@
                 <div class="buttons__row">
                     <div class="buttons__butt" id="num0">0</div>
                     <div class="buttons__butt" id="point">.</div>
-                    <div class="buttons__butt" id="clear">C</div>
+                    <div class="buttons__butt" id="eraser">←</div>
                     <div class="buttons__butt" id="plus">+</div>
                 </div>
                 <div class="buttons__row">
                     <div class="buttons__butt countC" id="count">=</div>
+                    <div class="buttons__butt" id="clear">C</div>
                 </div>
             </div>
+        </div>
+        <div class="theme">
+            <div class="changeBlack" id="changeColorBlack"></div>
+            <div class="changeWhite" id="changeColorWhite"></div>
         </div>
     </div>
     <script src="js/script.js"></script>
