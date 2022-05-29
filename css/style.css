@@ -1,4 +1,11 @@
 @import url("nullstyle.css");
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 .wrapper {
   height: 100%;
   display: -webkit-box;
@@ -84,7 +91,7 @@
 .countC {
   margin-top: 10px;
   border-radius: 8px;
-  width: 240px;
+  width: 74px;
 }
 
 .theme {

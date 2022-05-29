@@ -100,6 +100,16 @@ count.addEventListener("click", function () {
     transfer();
     counting();
 });
+left.addEventListener("click", function () {
+    if (inputStr.textContent.length < 23) {
+        inputStr.textContent += "(";
+    }
+});
+right.addEventListener("click", function () {
+    if (inputStr.textContent.length < 23) {
+        inputStr.textContent += ")";
+    }
+});
 
 changeColorBlack.addEventListener("click", function () {
     //цвет цифровой панели

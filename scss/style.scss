@@ -1,5 +1,14 @@
 @import url("nullstyle.css");
 
+//блоки нельзя выделять
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+//-----------------------------
 
 .wrapper {
     height: 100%;
@@ -73,7 +82,7 @@
 .countC {
     margin-top: 10px;
     border-radius: 8px;
-    width: 240px;
+    width: 74px;
 }
 
 .theme {
@@ -92,5 +101,4 @@ display: flex;
     height: 25px;
     width: 25px;
     background-color: rgb(255, 255, 255);
-    background-color: #5c5c5c;
 }
